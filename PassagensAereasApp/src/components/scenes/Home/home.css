@@ -1,0 +1,56 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.home--navbar {
+  width: 100%;
+  min-width: 160px;
+}
+
+.home--content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home--title {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home--title h1 {
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
+
+.navbar-brand > img {
+  width: 100%;
+  height: 100%;
+}
+.navbar-brand {
+  width: 35px;
+}
+
+.list {
+  width: 80%;
+}
+
+.nav-item {
+  width: 130px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ml-auto {
+  height: 100%;
+}

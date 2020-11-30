@@ -1,0 +1,61 @@
+.register--content {
+  max-height: 80%;
+  width: 40%;
+  min-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(194, 194, 194, 0.8);
+  border-radius: 5px;
+}
+
+.register--content > div {
+  display: absolute;
+  top: 10px;
+}
+.register--content > form {
+  margin: 5% 0%;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: scroll
+}
+
+.register--content > form::-webkit-scrollbar {
+display: none;
+}
+
+.register--content > form > #formregister {
+  height: 80px;
+  width: 50%;
+}
+
+.register--content > form > button {
+  font-weight: bold;
+  margin: 5%;
+  padding: 2% 5%;
+}
+
+.register--content > form > a {
+  height: 100%;
+  font-weight: bold;
+  margin: 0px;
+  padding: 2%;
+}
+
+.register--header {
+  text-align: center;
+  width: 100%;
+  background: lightgray;
+  color: rgba(202, 125, 48, 0.63);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bolder;
+  font-size: 40px;
+  border-radius: 15px;
+  padding: 5%;
+}

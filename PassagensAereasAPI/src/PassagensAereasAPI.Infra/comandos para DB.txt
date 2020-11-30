@@ -1,0 +1,9 @@
+dotnet ef migrations --startup-project ../PassagensAereasAPI.Api/PassagensAereasAPI.Api.csproj add InitialMigration
+
+dotnet ef database update --startup-project ../PassagensAereasAPI.Api/PassagensAereasAPI.Api.csproj
+
+
+
+update Usuario
+Set Admin = 1
+Where Id = 1;

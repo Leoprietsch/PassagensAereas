@@ -1,0 +1,10 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("http://minstorbyferie.dk/wp-content/uploads/2017/04/shutterstock_566356900.jpg");
+  background-size: cover;
+}
